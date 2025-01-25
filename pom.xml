@@ -20,6 +20,7 @@
 		<module>io.cucumber.eclipse.java</module>
 		<module>io.cucumber.eclipse.java.plugins</module>
 		<module>io.cucumber.eclipse.feature</module>
+<!--		<module>examples</module>-->
 <!--		<module>io.cucumber.eclipse.product</module>-->
 		<module>io.cucumber.eclipse.updatesite</module>
 	</modules>
@@ -74,17 +75,17 @@
 				<configuration>
 					<finalName>cucumber-eclipse-plugin-${project.version}</finalName>
 					<includeAllDependencies>true</includeAllDependencies>
-					<skipArchive>true</skipArchive>
+					<skipArchive>false</skipArchive>
 					<includeAllSources>true</includeAllSources>
 					<addIUTargetRepositoryReferences>true</addIUTargetRepositoryReferences>
 					<addPomRepositoryReferences>true</addPomRepositoryReferences>
-					<filterProvided>true</filterProvided>
+					<filterProvided>false</filterProvided>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-surefire-plugin</artifactId>
-				<version>${tycho-version}</version>				
+				<version>${tycho-version}</version>
 				<configuration>
 					<useUIHarness>true</useUIHarness>
 					<includes>
