@@ -1,0 +1,4 @@
+#Sun Jan 26 11:16:06 AEST 2025
+artifact.repository.factory.order=artifacts.xml.xz,artifacts.xml,\!
+metadata.repository.factory.order=content.xml.xz,content.xml,\!
+version=1

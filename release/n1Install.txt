@@ -1,0 +1,6 @@
+Copy jar in "C:\SoftwareAG\designer\eclipse\plugins"
+edit file "C:\SoftwareAG\designer\eclipse\configuration\org.eclipse.equinox.simpleconfigurator\bundles.info"
+add jar info. org.eclipse.unittest,1.0.100.v20210429-0605,plugins/org.eclipse.unittest.ui_1.0.100.v20210429-0605.jar,4,false
+restart Eclipse.
+
+Then try install plugin - repository folder
