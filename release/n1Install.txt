@@ -4,3 +4,5 @@ add jar info. org.eclipse.unittest,1.0.100.v20210429-0605,plugins/org.eclipse.un
 restart Eclipse.
 
 Then try install plugin - repository folder
+
+See example folder
